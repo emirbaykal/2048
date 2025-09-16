@@ -20,5 +20,3 @@
 -  MonoInstallers, ScriptableObject Installer
 -  **Memory Pooling** using `MonoMemoryPool<T>` for high-performance prefab reuse
 -  Singleton lifecycle control
-
-- ### What I did in the project:
