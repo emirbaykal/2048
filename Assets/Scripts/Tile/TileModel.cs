@@ -45,7 +45,7 @@ namespace Tile
         //After merging, it is checked whether the resulting value is equal to the last data.     
         public bool WinCheck(Dictionary<int, TilesData> data, int mergeValue)
         {
-            return 16 == mergeValue;
+            return data.Keys.Last == mergeValue;
         }
         
     }
